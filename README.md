@@ -2,6 +2,7 @@
 FPGA Design for strobed 1 BRAM data reading/writing, Written in VHDL,Synthesys done in Lattice Diamond, tool Synplify Pro.
 
 TOP Level Design:
+
 ![image](https://github.com/nodara3/SDRAM_MANAGER_FPGA/assets/122057844/f3d9b295-6974-4581-9ce7-976880255524)
 
 
