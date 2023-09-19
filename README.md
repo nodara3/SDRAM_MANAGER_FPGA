@@ -1,5 +1,5 @@
 # SDRAM_MANAGER_FPGA
-FPGA Design for strobed 1 BRAM data reading/writing, Written in VHDL,Synthesys done in Lattice Diamond, tool Synplify Pro.
+FPGA Design for strobed 1 BRAM data reading/writing, Written in VHDL,Synthesis done in Lattice Diamond, tool Synplify Pro.
 
 TOP Level Design:
 
