@@ -1,0 +1,21 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.vhd
+!*.ldf
+!*.lpf
+
+!*.bit
+!*.sbx
+!*.xcf
+# !*.vme
+!*.v
+!ebr_0
+!ebr_1
+!SDRAM
+!SDRAM_MODEL
+!Timing_Diagram
+!PLL
+!top

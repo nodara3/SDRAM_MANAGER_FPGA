@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="sdr_manager" device="LFE5U-25F-6BG381C" default_implementation="top">
+    <Options/>
+    <Implementation title="top" dir="top" description="top" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="top"/>
+        <Source name="top.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="top"/>
+        </Source>
+        <Source name="type_def_package.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="bram_union.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="Command_Decoder.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="Command_MUX.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="EBR_Manager.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="SDR_Manager.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="SDR_INIT.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="SDR_MUX.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="SDR_Read.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="SDR_Write.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="SDRAM/sdr_ctrl.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="SDRAM/sdr_data.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="SDRAM/sdr_par.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="SDRAM/sdr_sig.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="SDRAM/sdr_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="PLL/PLL.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="top_TB.vhd" type="VHDL" type_short="VHDL" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="top_plus_sdram_model.vhd" type="VHDL" type_short="VHDL" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="SDRAM_MODEL/mt48lc2m32b2.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="PLL/PLL.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="ebr_0/ebr_0.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="ebr_1/ebr_1.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="sdr_manager.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="top_TB/top_TB.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="sdr_manager1.sty"/>
+</BaliProject>
